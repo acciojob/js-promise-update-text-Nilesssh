@@ -1,6 +1,6 @@
 //your JS code here. If required.
-nice(){
+myGreeting(){
 	return document.getElementById("output").innerHTML = "Hello, world!"
 }
 
-setTimeout(nice(),1000);
+const myTimeout = setTimeout(myGreeting, 1000);
